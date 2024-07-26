@@ -1,8 +1,10 @@
 import re
 import string
 import random
- 
+
+# function to Validate the email address
 def email(mail):
+    # if condition to check wether mail is a string or not and else to check the correct pattern 
     if not isinstance(mail, str):
         return False
     else :
